@@ -808,8 +808,7 @@
              (xt/q
               (xt/db node) ;;<1>
               '{:find [p1] ;;<2>
-                :where [[p1 :name n]
-                        [p1 :last-name n]
+                :where [[p1 :last-name n]
                         [p1 :name name]]
                 :in [name]}
               "Ivan") ;;<3>
